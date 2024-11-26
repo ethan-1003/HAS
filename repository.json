@@ -1,26 +1,5 @@
 {
-  "name": "My Custom Add-ons",
-  "url": "https://github.com/ethan-1003/HAS",
-  "addons": [
-    {
-      "slug": "gpio_addon",
-      "name": "GPIO Addon",
-      "description": "Control GPIO pins",
-      "version": "1.0",
-      "arch": ["armhf", "armv7", "aarch64"],
-      "startup": "application",
-      "boot": "manual",
-      "options": {
-        "pin": 17,
-        "state": "off"
-      },
-      "schema": {
-        "pin": "int",
-        "state": {
-          "type": "string",
-          "enum": ["on", "off"]
-        }
-      }
-    }
-  ]
+  "name": "HAS",
+  "url": "https://github.com/ethan-1003/HAS.git"
+  "maintainer": "ethan@chtlab.io"
 }
