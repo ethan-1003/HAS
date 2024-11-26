@@ -1,0 +1,20 @@
+{
+  "name": "GPIO Control",
+  "version": "1.0",
+  "slug": "gpio_control",
+  "description": "Add-on to control GPIO pins on Raspberry Pi",
+  "arch": ["armhf", "armv7", "aarch64"],
+  "startup": "application",
+  "boot": "manual",
+  "options": {
+    "pin": 17,
+    "state": "off"
+  },
+  "schema": {
+    "pin": "int",
+    "state": {
+      "type": "string",
+      "enum": ["on", "off"]
+    }
+  }
+}
